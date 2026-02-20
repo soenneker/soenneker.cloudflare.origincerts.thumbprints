@@ -41,6 +41,7 @@
         <Content Include="Resources\cloudflareorigincerts.txt"
                  Pack="true"
                  PackageCopyToOutput="true"
-                 PackagePath="content\Resources\cloudflareorigincerts.txt" />
+                 PackagePath="contentFiles\any\any\Resources\cloudflareorigincerts.txt"
+                 BuildAction="None" />
     </ItemGroup>
 </Project>
