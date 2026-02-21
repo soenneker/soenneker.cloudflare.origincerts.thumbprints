@@ -38,10 +38,6 @@
         <None Include="..\README.md" Pack="true" PackagePath="\" />
         <None Include="..\LICENSE" Pack="true" PackagePath="\" />
         <None Include="..\icon.png" Pack="true" PackagePath="\" />
-        <Content Include="Resources\cloudflareorigincerts.txt"
-                 Pack="true"
-                 PackageCopyToOutput="true"
-                 PackagePath="contentFiles\any\any\Resources\cloudflareorigincerts.txt"
-                 BuildAction="None" />
+        <Content Include="Resources\cloudflareorigincerts.txt" Pack="true" PackageCopyToOutput="true" PackagePath="contentFiles/any/any/Resources/%(RecursiveDir)" BuildAction="None" />
     </ItemGroup>
 </Project>
