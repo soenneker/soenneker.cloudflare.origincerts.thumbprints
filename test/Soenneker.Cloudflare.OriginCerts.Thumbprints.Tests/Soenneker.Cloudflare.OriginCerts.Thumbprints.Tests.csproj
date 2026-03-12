@@ -15,7 +15,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\src\Soenneker.Cloudflare.OriginCerts.Thumbprints.csproj" />
+        <ProjectReference Include="..\..\src\Soenneker.Cloudflare.OriginCerts.Thumbprints\Soenneker.Cloudflare.OriginCerts.Thumbprints.csproj" />
     </ItemGroup>
 
     <ItemGroup>
