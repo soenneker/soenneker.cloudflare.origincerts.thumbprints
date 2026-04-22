@@ -13,10 +13,5 @@
     <ItemGroup>
         <ProjectReference Include="..\..\src\Soenneker.Cloudflare.OriginCerts.Thumbprints\Soenneker.Cloudflare.OriginCerts.Thumbprints.csproj" />
     </ItemGroup>
-
-    <ItemGroup>
-        <Content Include="testconfig.json">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-        </Content>
-    </ItemGroup>
 </Project>
+
