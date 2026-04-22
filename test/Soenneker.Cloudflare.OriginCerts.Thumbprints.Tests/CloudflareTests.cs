@@ -1,10 +1,9 @@
-﻿using Xunit;
 
 namespace Soenneker.Cloudflare.OriginCerts.Thumbprints.Tests;
 
 public sealed class CloudflareTests
 {
-    [Fact]
+    [Test]
     public void Default()
     {
 
