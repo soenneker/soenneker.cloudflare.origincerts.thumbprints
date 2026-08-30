@@ -7,7 +7,7 @@
     </PropertyGroup>
 
     <PropertyGroup>
-        <Description>The current Cloudflare origin certificate thumbprints</Description>
+        <Description>A packaged snapshot of Cloudflare's shared Authenticated Origin Pull CA and SHA-256 fingerprint.</Description>
         <Version Condition="'$(BUILD_VERSION)' == ''">4.0.0</Version>
         <Version Condition="'$(BUILD_VERSION)' != ''">$(BUILD_VERSION)</Version>
         <AssemblyName>Soenneker.Cloudflare.OriginCerts.Thumbprints</AssemblyName>
